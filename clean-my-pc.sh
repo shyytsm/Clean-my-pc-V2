@@ -1,6 +1,6 @@
 #!/bin/bash
 
-echo "🧹 Nettoyage du système..."
+echo " Nettoyage du système..."
 
 # Nettoyage du cache utilisateur
 rm -rf ~/.cache/*
@@ -12,4 +12,4 @@ sudo apt-get autoclean -y
 # Nettoyage des journaux système
 sudo journalctl --vacuum-time=7d
 
-echo "✅ Nettoyage terminé."
+echo "Nettoyage terminé."
